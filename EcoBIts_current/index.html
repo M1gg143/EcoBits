@@ -1,0 +1,1475 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="EcoBIts — encontre pontos de coleta de eletrônicos no Brasil e descubra como descartar seus equipamentos corretamente.">
+
+    <title>EcoBIts | Reciclagem de Eletrônicos</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="config.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="script.js" defer></script>
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header id="header">
+
+    <nav class="navbar">
+
+        <a href="#inicio" class="logo">
+
+            <span>♻</span>
+
+            <strong>
+                Eco<span>BIts</span>
+            </strong>
+
+        </a>
+
+
+        <button
+            class="menu-btn"
+            id="menuBtn"
+            aria-label="Abrir menu">
+
+            ☰
+
+        </button>
+
+
+        <ul id="menu">
+
+            <li>
+                <a href="#inicio">
+                    Início
+                </a>
+            </li>
+
+            <li>
+                <a href="#sobre">
+                    Sobre
+                </a>
+            </li>
+
+            <li>
+                <a href="#servicos">
+                    Serviços
+                </a>
+            </li>
+
+            <li>
+                <a href="#pontos">
+                    Pontos de coleta
+                </a>
+            </li>
+            <li>
+                <a href="#guia">
+                    Guia de descarte
+                </a>
+            </li>
+
+            <li>
+                <a href="#impacto">
+                    Impacto
+                </a>
+            </li>
+
+            <li>
+                <a href="#contato">
+                    Contato
+                </a>
+            </li>
+
+        </ul>
+
+
+        <a
+            href="#pontos"
+            class="header-button">
+
+            Encontrar ponto
+
+            <span>→</span>
+
+        </a>
+
+    </nav>
+
+</header>
+
+
+
+<main>
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section
+    class="hero"
+    id="inicio">
+
+
+    <div class="hero-grid"></div>
+
+
+    <div class="hero-glow glow-one"></div>
+
+    <div class="hero-glow glow-two"></div>
+
+
+    <div class="container hero-container">
+
+
+        <div class="hero-content">
+
+
+            <div class="tag">
+
+                <span>♻</span>
+
+                RECICLAGEM • TECNOLOGIA • FUTURO
+
+            </div>
+
+
+            <h1>
+
+                Seu eletrônico antigo
+
+                <span>
+                    merece um novo destino.
+                </span>
+
+            </h1>
+
+
+            <p>
+
+                Encontre pontos de coleta,
+                descarte seus equipamentos de
+                forma responsável e faça parte
+                de uma tecnologia mais sustentável.
+
+            </p>
+
+
+            <div class="hero-buttons">
+
+                <a
+                    href="#pontos"
+                    class="btn btn-green">
+
+                    Encontrar ponto de coleta
+
+                    <span>→</span>
+
+                </a>
+
+
+                <a
+                    href="#sobre"
+                    class="btn btn-outline">
+
+                    Conheça a EcoBIts
+
+                </a>
+
+            </div>
+
+
+            <div class="hero-stats">
+
+
+                <div>
+
+                    <strong>
+                        100%
+                    </strong>
+
+                    <span>
+                        compromisso
+                    </span>
+
+                </div>
+
+
+                <div>
+
+                    <strong>
+                        ♻
+                    </strong>
+
+                    <span>
+                        reaproveitamento
+                    </span>
+
+                </div>
+
+
+                <div>
+
+                    <strong>
+                        🌱
+                    </strong>
+
+                    <span>
+                        sustentabilidade
+                    </span>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+        <!-- HERO VISUAL -->
+
+        <div class="hero-visual">
+
+
+            <div class="orbit orbit-one"></div>
+
+            <div class="orbit orbit-two"></div>
+
+
+            <div class="hero-main-card">
+
+
+                <div class="card-header">
+
+                    <span>
+                        ECOBITS
+                    </span>
+
+                    <span>
+                        ● ONLINE
+                    </span>
+
+                </div>
+
+
+                <div class="big-recycle">
+
+                    ♻
+
+                </div>
+
+
+                <div class="eco-lines">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+
+
+                <div class="eco-progress">
+
+                    <div></div>
+
+                </div>
+
+
+                <small>
+                    TECNOLOGIA + SUSTENTABILIDADE
+                </small>
+
+            </div>
+
+
+            <div class="floating-card float-left">
+
+                <span>
+                    📍
+                </span>
+
+                <div>
+
+                    <strong>
+                        Pontos de coleta
+                    </strong>
+
+                    <small>
+                        perto de você
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <div class="floating-card float-right">
+
+                <strong>
+                    +
+                </strong>
+
+                <small>
+                    eletrônicos destinados
+                </small>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     SOBRE
+===================================================== -->
+
+<section
+    class="section about"
+    id="sobre">
+
+
+    <div class="container about-grid">
+
+
+        <div class="about-visual reveal">
+
+
+            <div class="about-orbit"></div>
+
+
+            <div class="about-center">
+
+                ♻
+
+            </div>
+
+
+            <div class="about-badge">
+
+                <strong>
+                    ECO
+                </strong>
+
+                <span>
+                    tecnologia
+                </span>
+
+            </div>
+
+
+            <div class="about-mini">
+
+                <strong>
+                    24/7
+                </strong>
+
+                <span>
+                    consciência
+                </span>
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="about-content reveal">
+
+
+            <span class="section-tag">
+
+                SOBRE A ECOBITS
+
+            </span>
+
+
+            <h2>
+
+                Tecnologia que
+
+                <span>
+                    pensa no futuro.
+                </span>
+
+            </h2>
+
+
+            <p>
+
+                A EcoBIts conecta pessoas,
+                empresas e soluções para
+                transformar o descarte de
+                eletrônicos em uma atitude
+                sustentável.
+
+            </p>
+
+
+            <p>
+
+                Computadores, celulares,
+                cabos, periféricos e diversos
+                outros equipamentos podem
+                receber uma destinação mais
+                adequada.
+
+            </p>
+
+
+            <div class="check-list">
+
+
+                <div>
+
+                    <span>✓</span>
+
+                    <p>
+                        Descarte responsável
+                    </p>
+
+                </div>
+
+
+                <div>
+
+                    <span>✓</span>
+
+                    <p>
+                        Pontos de coleta
+                    </p>
+
+                </div>
+
+
+                <div>
+
+                    <span>✓</span>
+
+                    <p>
+                        Educação ambiental
+                    </p>
+
+                </div>
+
+
+                <div>
+
+                    <span>✓</span>
+
+                    <p>
+                        Economia circular
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+            <a
+                href="#servicos"
+                class="text-link">
+
+                Conheça nossas soluções
+
+                <span>
+                    →
+                </span>
+
+            </a>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     SERVIÇOS
+===================================================== -->
+
+<section
+    class="section services"
+    id="servicos">
+
+
+    <div class="container">
+
+
+        <div class="section-header reveal">
+
+            <span class="section-tag">
+                NOSSAS SOLUÇÕES
+            </span>
+
+
+            <h2 class="section-title">
+
+                Descarte simples.
+
+                <span>
+                    Impacto positivo.
+                </span>
+
+            </h2>
+
+
+            <p class="section-description">
+
+                Criamos soluções para facilitar
+                o descarte consciente de
+                equipamentos eletrônicos.
+
+            </p>
+
+        </div>
+
+
+
+        <div class="cards-grid">
+
+
+            <article class="service-card reveal">
+
+                <div class="service-number">
+                    01
+                </div>
+
+                <div class="service-icon">
+                    📍
+                </div>
+
+                <h3>
+                    Pontos de coleta
+                </h3>
+
+                <p>
+
+                    Encontre locais onde você
+                    pode entregar seus
+                    equipamentos eletrônicos.
+
+                </p>
+
+                <a href="#pontos">
+
+                    Encontrar ponto
+
+                    <span>→</span>
+
+                </a>
+
+            </article>
+
+
+
+            <article class="service-card reveal">
+
+                <div class="service-number">
+                    02
+                </div>
+
+                <div class="service-icon">
+                    ♻
+                </div>
+
+                <h3>
+                    Reciclagem
+                </h3>
+
+                <p>
+
+                    Damos visibilidade ao processo
+                    de destinação dos resíduos
+                    eletrônicos.
+
+                </p>
+
+                <a href="#contato">
+
+                    Saiba mais
+
+                    <span>→</span>
+
+                </a>
+
+            </article>
+
+
+
+            <article class="service-card reveal">
+
+                <div class="service-number">
+                    03
+                </div>
+
+                <div class="service-icon">
+                    🌱
+                </div>
+
+                <h3>
+                    Sustentabilidade
+                </h3>
+
+                <p>
+
+                    Incentivamos hábitos que
+                    reduzem desperdícios e
+                    fortalecem a economia circular.
+
+                </p>
+
+                <a href="#impacto">
+
+                    Ver nosso impacto
+
+                    <span>→</span>
+
+                </a>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     GUIA INTELIGENTE DE DESCARTE
+===================================================== -->
+<section class="section disposal-guide" id="guia">
+    <div class="container">
+        <div class="section-header reveal">
+            <span class="section-tag">FERRAMENTA GRATUITA</span>
+            <h2 class="section-title">Não sabe como descartar?
+                <span>A gente te orienta.</span>
+            </h2>
+            <p class="section-description">
+                Escolha o eletrônico e conte como ele está. O EcoBIts mostra os cuidados
+                antes do descarte e ajuda a encontrar o tipo de ponto adequado.
+            </p>
+        </div>
+
+        <div class="guide-card reveal">
+            <div class="guide-intro">
+                <div class="guide-icon">🧭</div>
+                <div>
+                    <span class="guide-kicker">GUIA DE DESCARTE ECOBITS</span>
+                    <h3>Prepare seu eletrônico para o destino correto</h3>
+                    <p>Orientações gerais para facilitar o descarte responsável.</p>
+                </div>
+            </div>
+            <div class="guide-controls">
+                <div class="guide-field">
+                    <label for="guideDevice">O que você quer descartar?</label>
+                    <select id="guideDevice">
+                        <option value="celular">Celular ou tablet</option>
+                        <option value="computador">Notebook ou computador</option>
+                        <option value="pilhas">Pilhas ou baterias</option>
+                        <option value="cabos">Cabos, carregadores ou acessórios</option>
+                        <option value="outro">Outro eletrônico</option>
+                    </select>
+                </div>
+                <div class="guide-field">
+                    <label for="guideCondition">Qual é a condição do item?</label>
+                    <select id="guideCondition">
+                        <option value="funciona">Ainda funciona</option>
+                        <option value="quebrado">Está quebrado ou não liga</option>
+                        <option value="danificado">Bateria estufada, vazando ou aquecendo</option>
+                    </select>
+                </div>
+                <button id="guideGenerate" class="btn btn-green" type="button">Ver orientação →</button>
+            </div>
+            <div id="guideResult" class="guide-result" aria-live="polite" hidden>
+                <div class="guide-result-heading">
+                    <span>✓</span>
+                    <div>
+                        <strong id="guideResultTitle">Seu passo a passo</strong>
+                        <p id="guideResultIntro"></p>
+                    </div>
+                </div>
+                <ol id="guideSteps" class="guide-steps"></ol>
+                <div class="guide-result-actions">
+                    <button id="guideFindPoints" class="btn btn-green" type="button">Encontrar pontos para este item →</button>
+                    <p>Confirme com o estabelecimento se ele recebe esse material antes de se deslocar.</p>
+                </div>
+            </div>
+            <p class="guide-disclaimer">A orientação é informativa. Não abra equipamentos nem tente remover baterias danificadas. Em caso de bateria estufada, vazando ou aquecendo, evite manusear e procure orientação especializada.</p>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================================
+     PONTOS DE COLETA
+===================================================== -->
+
+<section
+    class="section collection"
+    id="pontos">
+
+
+    <div class="container">
+
+
+        <div class="section-header reveal">
+
+            <span class="section-tag">
+                ENCONTRE UM LOCAL
+            </span>
+
+
+            <h2 class="section-title">
+
+                Pontos de
+
+                <span>
+                    coleta EcoBIts.
+                </span>
+
+            </h2>
+
+
+            <p class="section-description">
+
+                Encontre um ponto de coleta
+                próximo de você e dê o primeiro
+                passo para um descarte consciente.
+
+            </p>
+
+        </div>
+
+
+
+        <!-- BUSCA -->
+
+        <div class="collection-search reveal">
+
+
+            <div class="search-box">
+
+                <span>
+                    🔎
+                </span>
+
+                <input
+                    type="text"
+                    id="searchPoint"
+                    placeholder="Digite cidade, bairro ou nome do ponto...">
+
+            </div>
+
+
+            <select id="filterType">
+
+                <option value="todos">
+                    Todos os tipos
+                </option>
+
+                <option value="eletronicos">
+                    Eletrônicos
+                </option>
+
+                <option value="celulares">
+                    Celulares
+                </option>
+
+                <option value="computadores">
+                    Computadores
+                </option>
+                <option value="pilhas_baterias">
+                    Pilhas e baterias
+                </option>
+                <option value="cabos_acessorios">
+                    Cabos e acessórios
+                </option>
+
+            </select>
+
+
+        </div>
+
+        <!-- MAPA INTERATIVO COM BUSCA/FILTRO -->
+        <div class="map-panel reveal">
+            <div class="map-panel-header">
+                <div>
+                    <span class="section-tag">MAPA DE COLETA</span>
+                    <h3>Encontre o destino certo para seu eletrônico</h3>
+                    <p>Encontre pontos cadastrados no EcoBIts e pesquise endereços no Google Maps. No lançamento inicial, a cobertura será do Brasil.</p>
+                </div>
+                <button class="map-locate-btn" id="mapLocateBtn" type="button">◎ Usar minha localização</button>
+            </div>
+            <div class="global-map-intro">
+                <div class="global-map-badge">🇧🇷 BRASIL</div>
+                <p><strong>Comece pela sua região.</strong> Os marcadores EcoBIts representam pontos cadastrados e aprovados. Você também pode pesquisar locais no Google Maps.</p>
+            </div>
+            <div class="map-filter-row">
+                <input id="mapSearch" type="search" placeholder="Cidade, estado ou endereço no Brasil" aria-label="Buscar local no mapa">
+                <select id="mapCategory" aria-label="Categoria de coleta">
+                    <option value="eletrônicos">Todos os eletrônicos</option>
+                    <option value="celulares">Celulares</option>
+                    <option value="computadores">Computadores</option>
+                    <option value="pilhas e baterias">Pilhas e baterias</option>
+                </select>
+                <button id="mapSearchBtn" class="btn btn-green" type="button">Buscar no mapa →</button>
+            </div>
+            <div class="map-frame-wrap">
+                <div id="collectionMapCanvas" role="region" aria-label="Mapa interativo de pontos de coleta EcoBIts"></div>
+                <iframe id="collectionMapFallback" title="Pesquisa de pontos de coleta no Google Maps" src="https://www.google.com/maps?q=reciclagem+de+eletronicos+Brasil&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+            </div>
+            <div class="map-actions"><span id="mapStatus" role="status" aria-live="polite">Carregando pontos aprovados do EcoBIts. Configure as integrações para ativar o mapa completo.</span><a id="openGoogleMaps" href="https://www.google.com/maps/search/electronics+recycling+centers/" target="_blank" rel="noopener noreferrer">Abrir resultados no Google Maps ↗</a></div>
+            <div class="map-note">Os pontos exibidos no EcoBIts são aprovados pela equipe. Confirme horário e materiais aceitos com o estabelecimento antes de se deslocar.</div>
+        </div>
+
+        <div class="demo-warning" id="pointsNotice">
+            <span>ℹ</span>
+            <p>Os resultados próprios do EcoBIts vêm do banco de dados e só aparecem após aprovação. Enquanto a integração não estiver configurada ou não houver pontos aprovados na região, use a pesquisa do Google Maps como alternativa.</p>
+        </div>
+
+        <div class="nearby-status" id="nearbyStatus" role="status" aria-live="polite"></div>
+        <div class="points-grid" id="pointsGrid" aria-live="polite"></div>
+        <div class="no-results" id="noResults" hidden>
+            <span>🔎</span>
+            <h3>Nenhum ponto aprovado encontrado</h3>
+            <p>Tente outra cidade ou material, ou consulte o Google Maps.</p>
+        </div>
+
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     PROCESSO
+===================================================== -->
+
+<section class="section process">
+
+
+    <div class="container">
+
+
+        <div class="section-header reveal">
+
+            <span class="section-tag">
+                COMO FUNCIONA
+            </span>
+
+
+            <h2 class="section-title">
+
+                É fácil fazer
+
+                <span>
+                    a diferença.
+                </span>
+
+            </h2>
+
+        </div>
+
+
+
+        <div class="process-grid">
+
+
+            <div class="process-item reveal">
+
+                <div class="process-number">
+                    01
+                </div>
+
+                <h3>
+                    Encontre
+                </h3>
+
+                <p>
+                    Localize o ponto de coleta
+                    mais conveniente para você.
+                </p>
+
+            </div>
+
+
+            <div class="process-arrow">
+                →
+            </div>
+
+
+            <div class="process-item reveal">
+
+                <div class="process-number">
+                    02
+                </div>
+
+                <h3>
+                    Entregue
+                </h3>
+
+                <p>
+                    Leve seu equipamento ao
+                    ponto de coleta.
+                </p>
+
+            </div>
+
+
+            <div class="process-arrow">
+                →
+            </div>
+
+
+            <div class="process-item reveal">
+
+                <div class="process-number">
+                    03
+                </div>
+
+                <h3>
+                    Transforme
+                </h3>
+
+                <p>
+                    Seu eletrônico ganha uma
+                    nova possibilidade de destino.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     IMPACTO
+===================================================== -->
+
+<section
+    class="impact"
+    id="impacto">
+
+
+    <div class="impact-glow"></div>
+
+
+    <div class="container">
+
+
+        <div class="section-header impact-header reveal">
+
+            <span class="section-tag">
+                NOSSO IMPACTO
+            </span>
+
+
+            <h2 class="section-title">
+
+                Cada eletrônico
+
+                <span>
+                    conta.
+                </span>
+
+            </h2>
+
+
+            <p class="section-description">
+
+                O descarte consciente contribui
+                para reduzir desperdícios e
+                estimular o reaproveitamento
+                de materiais.
+
+            </p>
+
+        </div>
+
+
+
+        <div class="stats-grid">
+
+
+            <div class="stat-card reveal">
+
+                <strong
+                    class="counter"
+                    data-target="2500">
+
+                    0
+
+                </strong>
+
+                <span>
+                    eletrônicos destinados
+                </span>
+
+            </div>
+
+
+            <div class="stat-card reveal">
+
+                <strong
+                    class="counter"
+                    data-target="850">
+
+                    0
+
+                </strong>
+
+                <span>
+                    kg de materiais
+                </span>
+
+            </div>
+
+
+            <div class="stat-card reveal">
+
+                <strong
+                    class="counter"
+                    data-target="120">
+
+                    0
+
+                </strong>
+
+                <span>
+                    empresas envolvidas
+                </span>
+
+            </div>
+
+
+            <div class="stat-card reveal">
+
+                <strong
+                    class="counter"
+                    data-target="95">
+
+                    0
+
+                </strong>
+
+                <span>
+                    % de compromisso
+                </span>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CTA
+===================================================== -->
+
+<section class="cta">
+
+
+    <div class="container">
+
+
+        <div class="cta-box reveal">
+
+
+            <div>
+
+                <span class="section-tag">
+                    FAÇA PARTE
+                </span>
+
+
+                <h2>
+
+                    O futuro também
+
+                    <span>
+                        depende de você.
+                    </span>
+
+                </h2>
+
+
+                <p>
+
+                    Encontre um ponto de coleta
+                    e dê um novo destino aos
+                    seus eletrônicos.
+
+                </p>
+
+            </div>
+
+
+            <a
+                href="#pontos"
+                class="btn btn-green">
+
+                Encontrar ponto
+
+                <span>
+                    →
+                </span>
+
+            </a>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CONTATO
+===================================================== -->
+
+<section
+    class="section contact"
+    id="contato">
+
+
+    <div class="container contact-grid">
+
+
+        <div class="contact-info reveal">
+
+
+            <span class="section-tag">
+                FALE CONOSCO
+            </span>
+
+
+            <h2>
+
+                Tem alguma
+
+                <span>
+                    dúvida?
+                </span>
+
+            </h2>
+
+
+            <p>
+
+                Quer cadastrar um ponto,
+                solicitar uma coleta ou saber
+                mais sobre a EcoBIts?
+
+                Fale com a nossa equipe.
+
+            </p>
+
+
+            <div class="contact-details">
+
+
+                <div class="contact-detail">
+
+                    <div>
+                        ✉
+                    </div>
+
+                    <div>
+
+                        <small>
+                            E-mail
+                        </small>
+
+                        <strong>
+                            contato@ecobits.com
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-detail">
+
+                    <div>
+                        📍
+                    </div>
+
+                    <div>
+
+                        <small>
+                            Atendimento
+                        </small>
+
+                        <strong>
+                            Todo o Brasil
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <form
+            class="contact-form reveal"
+            id="contactForm">
+
+
+            <div class="form-row">
+
+
+                <div class="form-group">
+
+                    <label for="name">
+                        Nome
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Seu nome"
+                        required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="email">
+                        E-mail
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="seu@email.com"
+                        required>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="subject">
+                    Assunto
+                </label>
+
+                <select
+                    id="subject"
+                    required>
+
+                    <option value="">
+                        Escolha uma opção
+                    </option>
+
+                    <option>
+                        Solicitar coleta
+                    </option>
+
+                    <option>
+                        Cadastrar ponto de coleta
+                    </option>
+
+                    <option>
+                        Parceria
+                    </option>
+
+                    <option>
+                        Dúvida
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="message">
+                    Mensagem
+                </label>
+
+                <textarea
+                    id="message"
+                    placeholder="Digite sua mensagem..."
+                    required></textarea>
+
+            </div>
+
+
+            <button
+                type="submit"
+                class="btn btn-green form-button">
+
+                Enviar mensagem
+
+                <span>
+                    →
+                </span>
+
+            </button>
+
+
+            <p
+                class="form-message"
+                id="formMessage"
+                role="status"
+                aria-live="polite">
+            </p>
+
+
+        </form>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer>
+
+
+    <div class="container footer-top">
+
+
+        <a
+            href="#inicio"
+            class="logo">
+
+            <span>♻</span>
+
+            <strong>
+                Eco<span>BIts</span>
+            </strong>
+
+        </a>
+
+
+        <p>
+            Tecnologia com propósito.
+        </p>
+
+
+        <div class="footer-social">
+
+            <a href="#">
+                IG
+            </a>
+
+            <a href="#">
+                IN
+            </a>
+
+            <a href="#">
+                FB
+            </a>
+
+        </div>
+
+
+    </div>
+
+
+
+    <div class="container footer-bottom">
+
+        <p>
+
+            ©
+            <span id="year"></span>
+            EcoBIts.
+            Todos os direitos reservados.
+
+        </p>
+
+
+        <a href="#inicio">
+
+            Voltar ao topo ↑
+
+        </a>
+
+    </div>
+
+
+</footer>
+
+
+
+<!-- BOTÃO TOPO -->
+
+<button
+    id="backTop"
+    class="back-top"
+    aria-label="Voltar ao topo">
+
+    ↑
+
+</button>
+
+
+
+</body>
+</html>
